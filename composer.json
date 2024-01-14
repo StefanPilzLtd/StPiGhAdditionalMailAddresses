@@ -1,0 +1,50 @@
+{
+    "name": "stpi/additional-mailaddresses",
+    "description": "Additional E-Mail Addresses  for Shopware 6",
+    "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Stefan Pilz Ltd.",
+            "email": "contact@stefanpilz.ltd",
+            "homepage": "https://stefanpilz.ltd",
+            "role": "Manufacturer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "StPi\\AdditionalMailAddresses\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "StPi\\AdditionalMailAddresses\\StPiAdditionalMailAddresses",
+        "plugin-icon": "src/Resources/config/plugin.png",
+        "copyright": "(c) by Stefan Pilz Ltd.",
+        "label": {
+            "de-DE": "Zusätzliche E-Mailadrdessen",
+            "en-GB": "Additional E-Mail Adresses"
+        },
+        "description": {
+            "de-DE": "Mit diesem Plugin können Kunden mehrere E-Mail-Adressen hinzufügen, um die E-Mails für den Zahlungsstatus, Bestellstatus und Lieferbenachrichtigungen an weitere Empfänger zu senden.",
+            "en-GB": "With this plugin, customers can add multiple email addresses to send payment status, order status and delivery notification emails to additional recipients."
+        },
+        "manufacturerLink": {
+            "de-DE": "https://stefanpilz.ltd",
+            "en-GB": "https://stefanpilz.ltd"
+        },
+        "pluginSupport": {
+            "de-DE": "plugins@stefanpilz.ltd",
+            "en-GB": "plugins@stefanpilz.ltd"
+        },
+        "supportLink": {
+            "de-DE": "https://stefanpilz.ltd",
+            "en-GB": "https://stefanpilz.ltd"
+        }
+    },
+    "require": {
+        "php": "^8.1 || ^8.2",
+        "shopware/core": "~6.5.2",
+        "shopware/storefront": "~6.5.2"
+    }
+}

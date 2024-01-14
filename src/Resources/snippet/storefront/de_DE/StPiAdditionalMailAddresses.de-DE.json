@@ -1,0 +1,28 @@
+{
+    "StPiAdditionalMailAddresses": {
+        "title": "SnippetText",
+        "metaTitle": "Account | E-Mailadressen",
+        "pageAccount": {
+            "heading": "Zusätzliche E-Mailadressen",
+            "introText": "Hier haben Sie die Möglichkeit, weitere E-Mailadressen zu Ihrem Konto hinzuzufügen. Diese zusätzlichen E-Mailadressen können für verschiedene Benachrichtigungen und Mitteilungen verwendet werden. Um eine neue E-Mailadresse hinzuzufügen, geben Sie die Adresse in das entsprechende Feld ein und wählen Sie aus, für welche Art von Benachrichtigungen Sie sie verwenden möchten. Klicken Sie dann auf \"Speichern\".",
+            "headingMailaddress": "E-Mail Adresse",
+            "checkboxInvoice": "Rechnung",
+            "checkboxTransactionState": "Zahlungsstatus",
+            "checkboxOrderStatus": "Bestellstatus",
+            "checkboxDeliveryStatus": "Lieferstatus",
+            "buttonSave": "Speichern"
+        },
+        "account": {
+            "sidebarLinkTitle": "Zusätzliche E-Mailadressen",
+            "dropdownLinkTitle": "Zusätzliche E-Mailadressen"
+        },
+        "messages": {
+            "login": "Bitte loggen Sie sich ein, oder erstellen Sie einen neuen Account.",
+            "saveAdditionalEmails": {
+                "success": "Die Einstellungen wurden erfolgreich gespeichert.",
+                "danger": "Error"
+            }
+        }
+
+    }
+}

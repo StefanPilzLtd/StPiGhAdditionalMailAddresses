@@ -1,0 +1,28 @@
+{
+    "StPiAdditionalMailAddresses": {
+        "title": "SnippetText",
+        "metaTitle": "Account | E-mail addresses",
+        "pageAccount": {
+            "heading": "Additional e-mail addresses",
+            "introText": "Here you have the option to add additional email addresses to your account. These additional email addresses can be used for various notifications and messages. To add a new email address, enter the address in the corresponding field and select the type of notifications you want to use it for. Then click on \"Save\".",
+            "headingMailaddress": "E-mail address",
+            "checkboxInvoice": "Invoice",
+            "checkboxTransactionState": "Payment status",
+            "checkboxOrderStatus": "Order status",
+            "checkboxDeliveryStatus": "Delivery status",
+            "buttonSave": "Save"
+        },
+        "account": {
+            "sidebarLinkTitle": "Additional e-mail addresses",
+            "dropdownLinkTitle": "e-mail addresses"
+        },
+        "messages": {
+            "login": "Please log in or create a new account.",
+            "saveAdditionalEmails": {
+                "success": "e-mail address has been updated.",
+                "danger": "Error"
+            }
+        }
+
+    }
+}

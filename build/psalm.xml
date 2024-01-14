@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<psalm
+    autoloader="../../../../vendor/autoload.php"
+    findUnusedVariablesAndParams="true"
+    xmlns="https://getpsalm.org/schema/config"
+    errorBaseline="../build/psalm-baseline.xml"
+>
+    <projectFiles>
+        <directory name="../src/."/>
+        <ignoreFiles>
+            <directory name="../vendor" />
+            <directory name="../../../../vendor" />
+        </ignoreFiles>
+    </projectFiles>
+
+    <issueHandlers>
+        <!-- level 3 issues - slightly lazy code writing, but provably low false-negatives -->
+
+        <InternalMethod errorLevel="info"/>
+        <PropertyNotSetInConstructor errorLevel="info"/>
+        <MissingConstructor errorLevel="info"/>
+        <UnresolvableInclude errorLevel="info"/>
+
+        <UndefinedClass>
+            <errorLevel type="suppress">
+            </errorLevel>
+        </UndefinedClass>
+
+        <ImplementedReturnTypeMismatch>
+            <errorLevel type="suppress">
+            </errorLevel>
+        </ImplementedReturnTypeMismatch>
+
+        <MoreSpecificImplementedParamType>
+            <errorLevel type="suppress">
+            </errorLevel>
+        </MoreSpecificImplementedParamType>
+
+        <DeprecatedFunction>
+            <errorLevel type="info">
+                <referencedFunction name="guzzlehttp\promise\settle"/>
+            </errorLevel>
+        </DeprecatedFunction>
+
+        <DeprecatedClass>
+            <errorLevel type="info">
+            </errorLevel>
+        </DeprecatedClass>
+
+    </issueHandlers>
+</psalm>

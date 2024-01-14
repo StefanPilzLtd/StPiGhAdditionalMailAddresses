@@ -1,0 +1,11 @@
+{% sw_extends '@Storefront/storefront/layout/meta.html.twig' %}
+
+{% block layout_head_title_inner %}
+
+    {% if activeRoute is same as('frontend.account.stpi.additional_emails.page') %}
+         {{ context.salesChannel.translated.name }} | {{ "StPiAdditionalMailAddresses.metaTitle"|trans|sw_sanitize }}
+    {% else %}
+        {{ parent() }}
+    {% endif %}
+
+{% endblock %}

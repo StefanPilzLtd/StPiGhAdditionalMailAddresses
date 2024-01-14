@@ -1,0 +1,19 @@
+{% sw_extends '@Storefront/storefront/page/account/sidebar.html.twig' %}
+
+{% block page_account_sidebar_menu_inner %}
+
+    {{ parent() }}
+
+    {% if not context.customer.guest and isStPiAdditionalMailAddressesActive %}
+
+        {% block page_account_sidebar_link_stpi_additional_emails_link %}
+            <a href="{{ path('frontend.account.stpi.additional_emails.page') }}"
+               title="{{ "StPiAdditionalMailAddresses.account.sidebarLinkTitle"|trans|striptags }}"
+               class="list-group-item list-group-item-action account-aside-item{% if activeRoute is same as('frontend.account.stpi.additional_emails.page') %} is-active{% endif %}">
+                {{ "StPiAdditionalMailAddresses.account.sidebarLinkTitle"|trans|sw_sanitize }}
+            </a>
+        {% endblock %}
+
+    {% endif %}
+
+{% endblock %}

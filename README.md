@@ -1,4 +1,4 @@
-# StPiAdditionalMailAddresses
+# StPiGhAdditionalMailAddresses
 ## Description
 
 With this plugin, customers can add multiple email addresses to send payment status, order status and delivery notification emails to additional recipients.

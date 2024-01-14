@@ -1,5 +1,5 @@
 {
-    "name": "stpi/additional-mailaddresses",
+    "name": "stpigh/additional-mailaddresses",
     "description": "Additional E-Mail Addresses  for Shopware 6",
     "version": "1.0.0",
     "type": "shopware-platform-plugin",
@@ -14,11 +14,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "StPi\\AdditionalMailAddresses\\": "src/"
+            "StPiGh\\AdditionalMailAddresses\\": "src/"
         }
     },
     "extra": {
-        "shopware-plugin-class": "StPi\\AdditionalMailAddresses\\StPiAdditionalMailAddresses",
+        "shopware-plugin-class": "StPiGhAdditionalMailAddresses",
         "plugin-icon": "src/Resources/config/plugin.png",
         "copyright": "(c) by Stefan Pilz Ltd.",
         "label": {

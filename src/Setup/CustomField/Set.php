@@ -8,7 +8,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace StPi\AdditionalMailAddresses\Setup\CustomField;
+namespace StPiGh\AdditionalMailAddresses\Setup\CustomField;
 
 use Shopware\Core\Framework\Context;
 use Shopware\Core\Framework\DataAbstractionLayer\EntityRepository;

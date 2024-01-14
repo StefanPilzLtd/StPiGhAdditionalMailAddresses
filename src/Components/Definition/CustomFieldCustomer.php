@@ -8,7 +8,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace StPi\AdditionalMailAddresses\Components\Definition;
+namespace StPiGh\AdditionalMailAddresses\Components\Definition;
 
 use Shopware\Core\System\CustomField\CustomFieldTypes;
 

@@ -8,7 +8,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace StPi\AdditionalMailAddresses\Setup\CustomField;
+namespace StPiGh\AdditionalMailAddresses\Setup\CustomField;
 
 use ReflectionClass;
 use Shopware\Core\Framework\Context;
@@ -59,7 +59,7 @@ class Definition
 
     private function getCustomFieldSet(string $classname, Context $context, array $only = []): array
     {
-        $definitionClass = new ReflectionClass('StPi\AdditionalMailAddresses\Components\Definition\\'.$classname);
+        $definitionClass = new ReflectionClass('StPiGh\AdditionalMailAddresses\Components\Definition\\'.$classname);
 
         $customFields = $definitionClass->getConstant('SET_CONTENT'); //NOSONAR
         if ($only !== []) {

@@ -4,21 +4,21 @@
 
     {% block account_content %}
         <div class="container">
-            <h1>{{ 'StPiAdditionalMailAddresses.pageAccount.heading' | trans }}</h1>
-            <p>{{ 'StPiAdditionalMailAddresses.pageAccount.introText'| trans }}</p>
+            <h1>{{ 'StPiGhAdditionalMailAddresses.pageAccount.heading' | trans }}</h1>
+            <p>{{ 'StPiGhAdditionalMailAddresses.pageAccount.introText'| trans }}</p>
             <form method="post" action="{{ path('frontend.stpi.additional_emails.save') }}" class="form">
                 {% for additionalEmail in additionalEmails %}
                     <div class="additional-emails-form-row ">
                         <div class="g-2">
                             <div class="form-group col-lg-6">
                                 <label class="form-label"
-                                       for="additionalEmails{{ loop.index }}">{{ 'StPiAdditionalMailAddresses.pageAccount.headingMailaddress'| trans }} {{ loop.index }}
+                                       for="additionalEmails{{ loop.index }}">{{ 'StPiGhAdditionalMailAddresses.pageAccount.headingMailaddress'| trans }} {{ loop.index }}
                                     :</label>
                                 <input type="email" class="form-control form-control-sm"
                                        name="additionalEmail_{{ loop.index0 }}[stpi_additional_mailaddresses_mail_{{ loop.index0 }}]"
                                        id="additionalEmails{{ loop.index }}"
                                        value="{{ additionalEmail['stpi_additional_mailaddresses_mail_' ~ loop.index0 ] }}"
-                                       placeholder="{{ 'StPiAdditionalMailAddresses.pageAccount.headingMailaddress'| trans }} {{ loop.index }}">
+                                       placeholder="{{ 'StPiGhAdditionalMailAddresses.pageAccount.headingMailaddress'| trans }} {{ loop.index }}">
                             </div>
                         </div>
                         <div class="additional-emails-checkboxes col-lg-6 card-col">
@@ -28,7 +28,7 @@
                                        id="invoice{{ loop.index }}" value="1"
                                        {% if additionalEmail['stpi_additional_mailaddresses_mail_' ~  loop.index0  ~ '_payment_status'] %}checked{% endif %}>
                                 <label class="form-check-label"
-                                       for="invoice{{ loop.index }}">{{ 'StPiAdditionalMailAddresses.pageAccount.checkboxTransactionState'| trans }}</label>
+                                       for="invoice{{ loop.index }}">{{ 'StPiGhAdditionalMailAddresses.pageAccount.checkboxTransactionState'| trans }}</label>
                             </div>
                             <div class="form-check  col-lg-4">
                                 <input type="checkbox" class="form-check-input"
@@ -36,7 +36,7 @@
                                        id="orderStatus{{ loop.index }}" value="1"
                                        {% if additionalEmail['stpi_additional_mailaddresses_mail_' ~  loop.index0  ~ '_order_status'] %}checked{% endif %}>
                                 <label class="form-check-label"
-                                       for="orderStatus{{ loop.index }}">{{ 'StPiAdditionalMailAddresses.pageAccount.checkboxOrderStatus'| trans }}</label>
+                                       for="orderStatus{{ loop.index }}">{{ 'StPiGhAdditionalMailAddresses.pageAccount.checkboxOrderStatus'| trans }}</label>
                             </div>
                             <div class="form-check  col-lg-4">
                                 <input type="checkbox" class="form-check-input"
@@ -44,13 +44,13 @@
                                        id="deliveryStatus{{ loop.index }}" value="1"
                                        {% if additionalEmail['stpi_additional_mailaddresses_mail_' ~  loop.index0  ~ '_delivery_status'] %}checked{% endif %}>
                                 <label class="form-check-label"
-                                       for="deliveryStatus{{ loop.index }}">{{ 'StPiAdditionalMailAddresses.pageAccount.checkboxDeliveryStatus'| trans }}</label>
+                                       for="deliveryStatus{{ loop.index }}">{{ 'StPiGhAdditionalMailAddresses.pageAccount.checkboxDeliveryStatus'| trans }}</label>
                             </div>
                         </div>
                     </div>
                 {% endfor %}
                 <button type="submit"
-                        class="btn btn-primary">{{ 'StPiAdditionalMailAddresses.pageAccount.buttonSave'| trans }}</button>
+                        class="btn btn-primary">{{ 'StPiGhAdditionalMailAddresses.pageAccount.buttonSave'| trans }}</button>
             </form>
         </div>
     {% endblock %}

@@ -7,7 +7,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace StPi\AdditionalMailAddresses\Subscriber;
+namespace StPiGh\AdditionalMailAddresses\Subscriber;
 
 use Shopware\Core\System\SystemConfig\SystemConfigService;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
@@ -37,8 +37,8 @@ class TwigConfigSubscriber implements EventSubscriberInterface
             return;
         }
 
-        $isPluginActive = (bool)$this->systemConfigService->get('StPiAdditionalMailAddresses.config.additionalMailAddressesActive');
+        $isPluginActive = (bool)$this->systemConfigService->get('StPiGhAdditionalMailAddresses.config.additionalMailAddressesActive');
 
-        $this->twig->addGlobal('isStPiAdditionalMailAddressesActive', $isPluginActive);
+        $this->twig->addGlobal('isStPiGhAdditionalMailAddressesActive', $isPluginActive);
     }
 }

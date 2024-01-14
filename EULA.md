@@ -1,20 +1,20 @@
-End-User License Agreement (EULA) of StPiAdditionalMailAddresses Plugin
-This End-User License Agreement ("EULA") is a legal agreement between you and Stefan Pilz Ltd.. Our EULA was created by EULA Template for StPiAdditionalMailAddresses Plugin.
+End-User License Agreement (EULA) of StPiGhAdditionalMailAddresses Plugin
+This End-User License Agreement ("EULA") is a legal agreement between you and Stefan Pilz Ltd.. Our EULA was created by EULA Template for StPiGhAdditionalMailAddresses Plugin.
 
-This EULA agreement governs your acquisition and use of our StPiAdditionalMailAddresses Plugin software ("Software") directly from Stefan Pilz Ltd. or indirectly through a Stefan Pilz Ltd. authorized reseller or distributor (a "Reseller"). Our Privacy Policy was created by the Privacy Policy Generator.
+This EULA agreement governs your acquisition and use of our StPiGhAdditionalMailAddresses Plugin software ("Software") directly from Stefan Pilz Ltd. or indirectly through a Stefan Pilz Ltd. authorized reseller or distributor (a "Reseller"). Our Privacy Policy was created by the Privacy Policy Generator.
 
-Please read this EULA agreement carefully before completing the installation process and using the StPiAdditionalMailAddresses Plugin software. It provides a license to use the StPiAdditionalMailAddresses Plugin software and contains warranty information and liability disclaimers.
+Please read this EULA agreement carefully before completing the installation process and using the StPiGhAdditionalMailAddresses Plugin software. It provides a license to use the StPiGhAdditionalMailAddresses Plugin software and contains warranty information and liability disclaimers.
 
-If you register for a free trial of the StPiAdditionalMailAddresses Plugin software, this EULA agreement will also govern that trial. By clicking "accept" or installing and/or using the StPiAdditionalMailAddresses Plugin software, you are confirming your acceptance of the Software and agreeing to become bound by the terms of this EULA agreement.
+If you register for a free trial of the StPiGhAdditionalMailAddresses Plugin software, this EULA agreement will also govern that trial. By clicking "accept" or installing and/or using the StPiGhAdditionalMailAddresses Plugin software, you are confirming your acceptance of the Software and agreeing to become bound by the terms of this EULA agreement.
 
 If you are entering into this EULA agreement on behalf of a company or other legal entity, you represent that you have the authority to bind such entity and its affiliates to these terms and conditions. If you do not have such authority or if you do not agree with the terms and conditions of this EULA agreement, do not install or use the Software, and you must not accept this EULA agreement.
 
 This EULA agreement shall apply only to the Software supplied by Stefan Pilz Ltd. herewith regardless of whether other software is referred to or described herein. The terms also apply to any Stefan Pilz Ltd. updates, supplements, Internet-based services, and support services for the Software, unless other terms accompany those items on delivery. If so, those terms apply.
 
 License Grant
-Stefan Pilz Ltd. hereby grants you a personal, non-transferable, non-exclusive licence to use the StPiAdditionalMailAddresses Plugin software on your devices in accordance with the terms of this EULA agreement.
+Stefan Pilz Ltd. hereby grants you a personal, non-transferable, non-exclusive licence to use the StPiGhAdditionalMailAddresses Plugin software on your devices in accordance with the terms of this EULA agreement.
 
-You are permitted to load the StPiAdditionalMailAddresses Plugin software (for example a PC, laptop, mobile or tablet) under your control. You are responsible for ensuring your device meets the minimum requirements of the StPiAdditionalMailAddresses Plugin software.
+You are permitted to load the StPiGhAdditionalMailAddresses Plugin software (for example a PC, laptop, mobile or tablet) under your control. You are responsible for ensuring your device meets the minimum requirements of the StPiGhAdditionalMailAddresses Plugin software.
 
 You are not permitted to:
 

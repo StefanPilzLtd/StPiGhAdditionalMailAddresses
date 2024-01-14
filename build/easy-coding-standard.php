@@ -31,7 +31,7 @@ file that was distributed with this source code.', 'separate' => 'bottom', 'loca
 
     $parameters->set('cache_directory', __DIR__ . '/../var/cache/cs_fixer');
 
-    $parameters->set('cache_namespace', 'StPiAdditionalMailAddresses');
+    $parameters->set('cache_namespace', 'StPiGhAdditionalMailAddresses');
 
     $parameters->set('paths', [
         __DIR__ . '/../bin',

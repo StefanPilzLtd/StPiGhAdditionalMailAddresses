@@ -7,10 +7,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace StPi\AdditionalMailAddresses\Services\Data;
+namespace StPiGh\AdditionalMailAddresses\Services\Data;
 
 class PluginConstants
 {
-    public const STPI_ADDITIONAL_MAIL_ADDRESSES_EXTENSION = 'StPiAdditionalMailAddresses';
+    public const STPI_ADDITIONAL_MAIL_ADDRESSES_EXTENSION = 'StPiGhAdditionalMailAddresses';
 
 }

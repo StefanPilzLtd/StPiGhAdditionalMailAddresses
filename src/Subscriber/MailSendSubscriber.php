@@ -7,7 +7,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace StPi\AdditionalMailAddresses\Subscriber;
+namespace StPiGh\AdditionalMailAddresses\Subscriber;
 
 
 use Shopware\Core\Checkout\Cart\Event\CheckoutOrderPlacedEvent;
@@ -15,7 +15,7 @@ use Shopware\Core\Content\MailTemplate\Service\Event\MailBeforeSentEvent;
 use Shopware\Core\System\SystemConfig\SystemConfigService;
 use Symfony\Component\DependencyInjection\Attribute\Autowire;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
-use StPi\AdditionalMailAddresses\Services\OrderCustomerService;
+use StPiGh\AdditionalMailAddresses\Services\OrderCustomerService;
 
 class MailSendSubscriber implements EventSubscriberInterface
 {
@@ -35,7 +35,7 @@ class MailSendSubscriber implements EventSubscriberInterface
 
     public function onMailBeforeSend(MailBeforeSentEvent $event): void
     {
-        $isPluginActive = (bool)$this->systemConfigService->get('StPiAdditionalMailAddresses.config.additionalMailAddressesActive');
+        $isPluginActive = (bool)$this->systemConfigService->get('StPiGhAdditionalMailAddresses.config.additionalMailAddressesActive');
         if (!$isPluginActive) {
             return;
         }

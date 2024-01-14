@@ -7,7 +7,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace StPi\AdditionalMailAddresses\Storefront\Controller;
+namespace StPiGh\AdditionalMailAddresses\Storefront\Controller;
 
 
 use Shopware\Core\Checkout\Customer\CustomerEntity;
@@ -43,7 +43,7 @@ class AdditionalEmailsController extends StorefrontController
         $userD = $request->attributes->get('sw-sales-channel-context')->getCustomer();
 
         if(!$userD){
-            $this->addFlash(self::DANGER,$this->translator->trans('StPiAdditionalMailAddresses.messages.login'));
+            $this->addFlash(self::DANGER,$this->translator->trans('StPiGhAdditionalMailAddresses.messages.login'));
             return $this->redirectToRoute('frontend.account.login.page');
         }
 
@@ -58,7 +58,7 @@ class AdditionalEmailsController extends StorefrontController
             ];
         }
 
-        return $this->render('@StPiAdditionalMailAddresses/storefront/page/account/additional_emails/account-layout.html.twig', [
+        return $this->render('@StPiGhAdditionalMailAddresses/storefront/page/account/additional_emails/account-layout.html.twig', [
             'additionalEmails' => $additionalEmails,
         ]);
     }
@@ -70,7 +70,7 @@ class AdditionalEmailsController extends StorefrontController
         $userD = $request->attributes->get('sw-sales-channel-context')->getCustomer();
 
         if(!$userD){
-            $this->addFlash(self::DANGER,$this->translator->trans('StPiAdditionalMailAddresses.messages.login'));
+            $this->addFlash(self::DANGER,$this->translator->trans('StPiGhAdditionalMailAddresses.messages.login'));
             return $this->redirectToRoute('frontend.account.login.page');
         }
 
@@ -105,9 +105,9 @@ class AdditionalEmailsController extends StorefrontController
         $entityWrittenContainerEvent = $this->customerRepository->update([$data], $this->context);
 
         if(!empty($entityWrittenContainerEvent->getErrors())){
-            $this->addFlash(self::DANGER,$this->translator->trans('StPiAdditionalMailAddresses.messages.saveAdditionalEmails.danger'));
+            $this->addFlash(self::DANGER,$this->translator->trans('StPiGhAdditionalMailAddresses.messages.saveAdditionalEmails.danger'));
         }else{
-            $this->addFlash(self::SUCCESS,$this->translator->trans('StPiAdditionalMailAddresses.messages.saveAdditionalEmails.success'));
+            $this->addFlash(self::SUCCESS,$this->translator->trans('StPiGhAdditionalMailAddresses.messages.saveAdditionalEmails.success'));
         }
 
 

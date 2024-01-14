@@ -7,15 +7,15 @@
     <services>
 
         <defaults autowire="true" autoconfigure="true" />
-        <prototype namespace="StPi\AdditionalMailAddresses\" resource="../../" exclude="../../{Components,Exception,Resources,Setup}" />
+        <prototype namespace="StPiGh\AdditionalMailAddresses\" resource="../../" exclude="../../{Components,Exception,Resources,Setup}" />
 
 
         <!--***Subscriber***-->
-        <service id="StPi\AdditionalMailAddresses\Subscriber\MailSendSubscriber" public="true" autowire="true">
+        <service id="StPiGh\AdditionalMailAddresses\Subscriber\MailSendSubscriber" public="true" autowire="true">
             <tag name="kernel.event_subscriber"/>
         </service>
 
-        <service id="StPi\AdditionalMailAddresses\Services\OrderCustomerService" >
+        <service id="StPiGh\AdditionalMailAddresses\Services\OrderCustomerService" >
             <argument type="service" id="order_customer.repository" />
             <argument type="service" id="customer.repository" />
         </service>

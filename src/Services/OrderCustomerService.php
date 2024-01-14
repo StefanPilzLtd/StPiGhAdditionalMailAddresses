@@ -7,7 +7,7 @@
  */
 
 
-namespace StPi\AdditionalMailAddresses\Services;
+namespace StPiGh\AdditionalMailAddresses\Services;
 
 use Shopware\Core\Checkout\Customer\CustomerEntity;
 use Shopware\Core\Checkout\Order\Aggregate\OrderCustomer\OrderCustomerEntity;

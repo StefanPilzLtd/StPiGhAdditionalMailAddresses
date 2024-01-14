@@ -9,7 +9,7 @@ use PackageVersions\Versions;
 use Shopware\Core\Framework\Plugin\KernelPluginLoader\StaticKernelPluginLoader;
 use Shopware\Development\Kernel;
 use Symfony\Component\Dotenv\Dotenv;
-use StPi\AdditionalMailAddresses\StPiAdditionalMailAddresses;
+use StPiGh\AdditionalMailAddresses\StPiGhAdditionalMailAddresses;
 
 $classLoader = require __DIR__ . '/../../../../vendor/autoload.php';
 (new Dotenv())->load(__DIR__ . '/../../../../.env');
@@ -22,9 +22,9 @@ $composerJson = json_decode((string) file_get_contents($pluginRootPath . '/compo
 $pluginLoader = new StaticKernelPluginLoader($classLoader, null, [
     [
         'autoload' => $composerJson['autoload'],
-        'baseClass' => StPiAdditionalMailAddresses::class,
+        'baseClass' => StPiGhAdditionalMailAddresses::class,
         'managedByComposer' => false,
-        'name' => 'StPiAdditionalMailAddresses',
+        'name' => 'StPiGhAdditionalMailAddresses',
         'version' => $composerJson['version'],
         'active' => true,
         'path' => $pluginRootPath,

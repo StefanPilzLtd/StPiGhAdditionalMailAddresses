@@ -8,7 +8,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace StPi\AdditionalMailAddresses\Setup;
+namespace StPiGh\AdditionalMailAddresses\Setup;
 
 
 use Shopware\Core\Framework\Plugin\Context\InstallContext;

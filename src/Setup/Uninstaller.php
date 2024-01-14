@@ -7,10 +7,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace StPi\AdditionalMailAddresses\Setup;
+namespace StPiGh\AdditionalMailAddresses\Setup;
 
 use Shopware\Core\Framework\Plugin\Context\UninstallContext;
-use StPi\AdditionalMailAddresses\Components\Definition\CustomFieldCustomer;
+use StPiGh\AdditionalMailAddresses\Components\Definition\CustomFieldCustomer;
 
 class Uninstaller extends Base
 {

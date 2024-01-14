@@ -7,7 +7,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace StPi\AdditionalMailAddresses;
+namespace StPiGh\AdditionalMailAddresses;
 
 use Doctrine\DBAL\Connection;
 use Exception;
@@ -15,12 +15,12 @@ use Shopware\Core\Framework\DataAbstractionLayer\EntityRepository;
 use Shopware\Core\Framework\Plugin;
 use Shopware\Core\Framework\Plugin\Context\InstallContext;
 use Shopware\Core\Framework\Plugin\Context\UninstallContext;
-use StPi\AdditionalMailAddresses\Setup\CustomField\Definition;
-use StPi\AdditionalMailAddresses\Setup\CustomField\Set;
-use StPi\AdditionalMailAddresses\Setup\Installer;
-use StPi\AdditionalMailAddresses\Setup\Uninstaller;
+use StPiGh\AdditionalMailAddresses\Setup\CustomField\Definition;
+use StPiGh\AdditionalMailAddresses\Setup\CustomField\Set;
+use StPiGh\AdditionalMailAddresses\Setup\Installer;
+use StPiGh\AdditionalMailAddresses\Setup\Uninstaller;
 
-class StPiAdditionalMailAddresses extends Plugin
+class StPiGhAdditionalMailAddresses extends Plugin
 {
 
     /**

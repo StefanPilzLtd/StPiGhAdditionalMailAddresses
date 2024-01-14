@@ -1,6 +1,6 @@
 <?php
 
-namespace StPi\AdditionalMailAddresses\Exception;
+namespace StPiGh\AdditionalMailAddresses\Exception;
 
 
 use Exception;

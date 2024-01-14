@@ -8,13 +8,13 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace StPi\AdditionalMailAddresses\Setup;
+namespace StPiGh\AdditionalMailAddresses\Setup;
 
 use Shopware\Core\Framework\Plugin\Context\InstallContext;
 use Shopware\Core\Framework\Plugin\Context\UpdateContext;
-use StPi\AdditionalMailAddresses\Exception\CustomFieldSetNotFoundException;
-use StPi\AdditionalMailAddresses\Setup\CustomField\Definition;
-use StPi\AdditionalMailAddresses\Setup\CustomField\Set;
+use StPiGh\AdditionalMailAddresses\Exception\CustomFieldSetNotFoundException;
+use StPiGh\AdditionalMailAddresses\Setup\CustomField\Definition;
+use StPiGh\AdditionalMailAddresses\Setup\CustomField\Set;
 
 abstract class Base
 {
